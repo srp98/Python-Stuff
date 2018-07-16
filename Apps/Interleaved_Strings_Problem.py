@@ -3,7 +3,7 @@
 # Returns true if C is an interleaving of A and B, otherwise returns false
 
 
-def isInterleaved(A, B, C):
+def is_interleaved(A, B, C):
     # Utility variables
     i = 0
     j = 0
@@ -41,7 +41,7 @@ def isInterleaved(A, B, C):
 A = "AB"
 B = "CD"
 C = "ABC"
-if isInterleaved(A, B, C) == 1:
+if is_interleaved(A, B, C) == 1:
     print(C + " is interleaved of " + A + " and " + B)
 else:
     print(C + " is not interleaved of " + A + " and " + B)
