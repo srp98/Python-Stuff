@@ -12,6 +12,7 @@ def timer(func):
     return f
 
 
+# Higher Order Decorator
 def n_times(n):
     def inner(func):
         def wrapper(*args, **kwargs):
